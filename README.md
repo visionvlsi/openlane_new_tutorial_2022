@@ -13,7 +13,7 @@ XDG_SESSION_TYPE=x11 klayout
 
 
 ### To run openlane interactively 
-<ul>
+<p>
 You may run the flow interactively by using the -interactive option:
 
 ./flow.tcl -interactive
@@ -37,10 +37,10 @@ run_magic_spice_export
 run_magic_drc
 run_lvs
 run_antenna_check
-</ul>
+</p>
 
 ## TIf the design is too small. you try appending these to your configuration file (config.tcl):
-<ul>
+<p>
 set ::env(FP_CORE_UTIL) 5
 set ::env(PL_TARGET_DENSITY) 0.5
 (low utilization)
@@ -48,4 +48,4 @@ set ::env(PL_TARGET_DENSITY) 0.5
 If these don't work, you may want to take a look at:
 https://github.com/efabless/openlane/blob/master/regression_results/README.md
 and explore different utilizations and densities.
-</ul>
+</p>
