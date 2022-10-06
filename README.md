@@ -41,7 +41,7 @@ run_antenna_check<br/>
     </li>
 </p>
 
-## TIf the design is too small. you try appending these to your configuration file (config.tcl):
+## If the design is too small. you try appending these to your configuration file (config.tcl):
 <p>
 set ::env(FP_CORE_UTIL) 5<br/>
 set ::env(PL_TARGET_DENSITY) 0.5<br/>
