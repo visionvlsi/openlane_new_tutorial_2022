@@ -25,6 +25,7 @@ A tcl shell will be opened where the openlane package is automatically sourced:
 Then, you should be able to run the following main commands:
 
 Any tcl command.
+  <ul>
 prep -design <design> -tag <tag> -config <config> -init_design_config -overwrite similar to the command line arguments, design is required and the rest is optional
 run_synthesis
 run_floorplan
@@ -37,6 +38,7 @@ run_magic_spice_export
 run_magic_drc
 run_lvs
 run_antenna_check
+    </ul>
 </p>
 
 ## TIf the design is too small. you try appending these to your configuration file (config.tcl):
