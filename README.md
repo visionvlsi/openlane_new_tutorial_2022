@@ -2,14 +2,16 @@
 
 
 
-To create the design type the following cpmmand
+To create the design type the following command in the terminal<br/>
 
-./flow.tcl -design <design_name> -init_design_config -add_to_designs -config_file config.tcl
+cd OpenLane<br/>
+make mount<br/>
+./flow.tcl -design <design_name> -init_design_config -add_to_designs -config_file config.tcl<br/>
 
 
-To launch kalyout 
+To launch kalyout<br/> 
 
-XDG_SESSION_TYPE=x11 klayout
+XDG_SESSION_TYPE=x11 klayout<br/>
 
 
 ### To run openlane interactively 
