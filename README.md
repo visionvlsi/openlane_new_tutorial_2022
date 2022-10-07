@@ -25,9 +25,9 @@ Then type the follwoing<br/>
 Then, you should be able to run the following main commands:<br/>
 
 Any tcl command.<br/>
-<p>
-prep -design <design> -tag <tag> -config <config> -init_design_config -overwrite<br/>
-</p>
+
+prep -design <\design>\ -tag <\tag>\ -config <\config>\ -init_design_config -overwrite<br/>
+
   
 similar to the command line arguments, design is required and the rest is optional<br/>
   
