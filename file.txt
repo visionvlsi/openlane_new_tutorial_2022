@@ -1,5 +1,6 @@
+set design encoder8x3
 package require openlane
-prep -design encoder8x3
+prep -design $design
 run_synthesis
 run_floorplan
 run_placement
