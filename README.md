@@ -36,7 +36,8 @@ run_floorplan<br/>
 run_placement<br/>
 run_cts<br/>
 run_routing<br/>
-write\_powered\_verilog followed by set\_netlist \$\::env(routing\_logs)/\$\::env(DESIGN\_NAME).powered.v<br/>
+write_powered_verilog followed by<br/>
+set_netlist $::env(routing_logs)/$::env(DESIGN_NAME).powered.v<br/>
 run_magic<br/>
 run_magic_spice_export<br/>
 run_magic_drc<br/>
