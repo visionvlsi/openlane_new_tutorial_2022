@@ -56,3 +56,12 @@ and explore different utilizations and densities.<br/>
 #### To launch kalyout<br/> 
 
 XDG_SESSION_TYPE=x11 klayout<br/>
+  
+#### Updating OpenLane<br/>
+If you already have the repo locally, then there is no need to re-clone it. You can run the following:<br/>
+
+    cd OpenLane/<br/>
+    git checkout master<br/>
+    git pull<br/>
+    make<br/>
+    make test # This is to test that the flow and the pdk were properly updated<br/>
