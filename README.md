@@ -43,6 +43,10 @@ run_magic_drc<br/>
 run_lvs<br/>
 run_antenna_check<br/>
 
+#### The above commands can also be written in a file and passed to flow.tcl:
+
+./flow.tcl -interactive -file \<file\>
+
 #### If the design is too small. you try appending these to your configuration file (config.tcl):
 
 set ::env(FP_CORE_UTIL) 5<br/>
