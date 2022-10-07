@@ -7,7 +7,7 @@ make mount<br/>
 
 #### To create the design type the following command in the terminal<br/>
 
-./flow.tcl -design <design_name> -init_design_config -add_to_designs -config_file config.tcl<br/>
+./flow.tcl -design \<design_name>\ -init_design_config -add_to_designs -config_file config.tcl<br/>
 
 #### To run openlane interactively 
 
@@ -26,7 +26,7 @@ Then, you should be able to run the following main commands:<br/>
 
 Any tcl command.<br/>
 
-prep -design <\design>\ -tag <\tag>\ -config <\config>\ -init_design_config -overwrite<br/>
+prep -design \<design\> -tag \<tag\> -config \<config\> -init_design_config -overwrite<br/>
 
   
 similar to the command line arguments, design is required and the rest is optional<br/>
