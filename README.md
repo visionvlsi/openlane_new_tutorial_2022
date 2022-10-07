@@ -25,8 +25,9 @@ Then type the follwoing<br/>
 Then, you should be able to run the following main commands:<br/>
 
 Any tcl command.<br/>
-
+<p>
 prep -design <design> -tag <tag> -config <config> -init_design_config -overwrite<br/>
+</p>
   
 similar to the command line arguments, design is required and the rest is optional<br/>
   
@@ -60,8 +61,8 @@ XDG_SESSION_TYPE=x11 klayout<br/>
 #### Updating OpenLane<br/>
 If you already have the repo locally, then there is no need to re-clone it. You can run the following:<br/>
 
-    cd OpenLane/<br/>
-    git checkout master<br/>
-    git pull<br/>
-    make<br/>
-    make test # This is to test that the flow and the pdk were properly updated<br/>
+  cd OpenLane/<br/>
+  git checkout master<br/>
+  git pull<br/>
+  make<br/>
+  make test # This is to test that the flow and the pdk were properly updated<br/>
