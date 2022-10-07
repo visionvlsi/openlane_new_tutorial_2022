@@ -37,6 +37,9 @@ run_placement<br/>
 run_cts<br/>
 run_routing<br/>
 <code> write_powered_verilog </code> " followed by " <code> set_netlist $::env(routing_logs)/$::env(DESIGN_NAME).powered.v </code> <br/>
+
+write_powered_verilog -output_def -output_nl -output_pnl <br/>
+       
 run_magic<br/>
 run_magic_spice_export<br/>
 run_magic_drc<br/>
