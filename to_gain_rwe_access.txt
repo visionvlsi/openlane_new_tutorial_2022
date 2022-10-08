@@ -1,0 +1,6 @@
+sudo chmod 777 -R /path to folder
+
+This would give all permissions (Read, Write, Execute) to you
+
+
+sudo chmod 777 ./OpenLane/
