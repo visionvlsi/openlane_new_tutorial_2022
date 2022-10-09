@@ -1,0 +1,7 @@
+When iverilog is cloned from git do the following for installation 
+
+sudo apt-get install -y gperf
+autoconf configure.ac
+./configure
+sudo make
+sudo make install
