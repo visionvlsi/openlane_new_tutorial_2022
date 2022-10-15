@@ -1,0 +1,23 @@
+sudo apt install libX11-6
+sudo apt install libx11-dev
+sudo apt install libxrender1
+sudo apt install libxrender-dev
+sudo apt install libxcb1
+sudo apt install libx11-xcb-dev 
+sudo apt install libcairo2  
+sudo apt install libcairo2-dev
+sudo apt install tcl8.6 
+sudo apt install tcl8.6-dev
+sudo apt install tk8.6      
+sudo apt install tk8.6-dev
+sudo apt install flex        
+sudo apt install bison
+sudo apt install libxpm4     
+sudo apt install libxpm-dev
+sudo apt install gawk
+sudo apt install mawk
+git clone https://github.com/StefanSchippers/xschem.git xschem_git
+cd xschem_git
+./configure
+make
+sudo make install
