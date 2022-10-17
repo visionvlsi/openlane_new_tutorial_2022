@@ -1,0 +1,1 @@
+run ldconfig (as root). it will update some library cache.
