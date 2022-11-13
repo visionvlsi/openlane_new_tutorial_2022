@@ -73,3 +73,7 @@ If you already have the repo locally, then there is no need to re-clone it. You 
   git pull<br/>
   make<br/>
   make test # This is to test that the flow and the pdk were properly updated<br/>
+  
+  # Backend design
+  
+  https://github.com/visionvlsi/be_design_using_openlane
