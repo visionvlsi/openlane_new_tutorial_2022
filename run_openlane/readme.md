@@ -4,7 +4,7 @@
 
 
 
-
+<ul>
 #prep -design <design> -tag <tag> -config <config> -init_design_config -overwrite similar to the command line arguments, design is required and the rest is optional
 package require openlane
 set design fa1
@@ -19,4 +19,4 @@ run_magic
 run_magic_spice_export
 run_magic_drc
 run_lvs
-run_antenna_check
+run_antenna_check</ul>
