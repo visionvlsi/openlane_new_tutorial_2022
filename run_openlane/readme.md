@@ -1,4 +1,4 @@
-./flow.tcl -interactive -file <\file>\
+./flow.tcl -interactive -file \<file\>
 
 
 
