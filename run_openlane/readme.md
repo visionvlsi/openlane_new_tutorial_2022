@@ -1,7 +1,6 @@
+./flow.tcl -design \<design_name\> -init_design_config -add_to_designs -config_file config.tcl
+
 ./flow.tcl -interactive -file \<file\>
-
-
-
 
 
 <ul>
