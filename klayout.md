@@ -7,12 +7,12 @@ sudo apt --fix-broken install<br/>
 
 # To serach the installed package
 
-apt-cache search <name><br/>
+apt-cache search \<name\><br/>
   
  # To install the package
   
-apt-get install <name><br/>
+apt-get install \<name\><br/>
   
  # To uninstall the package
   
-  apt remove <package-name>
+  apt remove \<package-name\>
