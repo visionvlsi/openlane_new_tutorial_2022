@@ -1,6 +1,6 @@
 # Download and install
 
-sudo apt-get install libqt5opengl5
+sudo apt-get install libqt5opengl5<br/>
 sudo apt-get install libc-bin mailcap gnome-menus desktop-file-utils man-db<br/>
 sudo apt --fix-broken install<br/>
 Download klayout from https://www.klayout.de/build.html<br/>
