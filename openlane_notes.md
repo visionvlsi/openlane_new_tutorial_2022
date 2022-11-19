@@ -8,6 +8,10 @@ https://openlane.readthedocs.io/en/latest/flow_overview.html
 
 https://openlane.readthedocs.io/en/latest/index.html
 
+### Tutorials
+
+https://openlane.readthedocs.io/en/latest/tutorials/index.html
+
 ### Hardening Macros
 
 https://openlane.readthedocs.io/en/latest/usage/hardening_macros.html
