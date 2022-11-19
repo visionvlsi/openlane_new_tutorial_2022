@@ -1,9 +1,10 @@
 # Additional Notes
 
-### Openlane architecture 
+### The OpenLane architecture 
 
 https://openlane.readthedocs.io/en/latest/flow_overview.html
 
+### The OpenLane Documentation
 
 https://openlane.readthedocs.io/en/latest/index.html
 
