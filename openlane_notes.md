@@ -20,6 +20,6 @@ https://openlane.readthedocs.io/en/latest/usage/hardening_macros.html
 
 
 
-### Floorplanning 
+### Floorplanning: concept, challenges, and closure
 
 https://www.edn.com/floorplanning-concept-challenges-and-closure/#:~:text=Floorplanning%20is%20the%20foundation%20step,through%20the%20entire%20design%20flow.
