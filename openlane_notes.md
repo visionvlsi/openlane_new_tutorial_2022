@@ -16,6 +16,10 @@ https://openlane.readthedocs.io/en/latest/tutorials/index.html
 
 https://openlane.readthedocs.io/en/latest/usage/hardening_macros.html
 
+### Variables
+
+https://github.com/efabless/OpenLane/blob/master/configuration/README.md
+
 
 
 
