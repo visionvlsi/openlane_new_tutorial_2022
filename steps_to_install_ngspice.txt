@@ -1,0 +1,28 @@
+# Dependencies 
+
+sudo apt-get install build-essential
+sudo apt-get install automake libtool gperf flex bison
+sudo apt-get install libxml2 libxml2-dev
+sudo apt-get install libxml-libxml-perl
+sudo apt-get install libgd-perl
+sudo apt-get install -y automake
+sudo apt-get install -y autoconf
+sudo apt-get install -y libtool
+sudo apt-get install -y libxaw7-dev
+sudo ldconfig
+
+git clone https://github.com/Qucs/ADMS.git
+cd ADMS/
+sh bootstrap.sh
+./configure 
+sudo make install
+
+git clone https://git.code.sf.net/p/ngspice/ngspice ngspice
+cd ngspice/
+git checkout pre-master
+./autogen.sh --adms
+mkdir release
+cd release/
+../configure --with-x --enable-xspice --disable-debug --enable-cider --with-readline=yes --enable-openmp
+make -j4
+sudo make install
