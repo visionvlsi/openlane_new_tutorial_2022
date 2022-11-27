@@ -9,13 +9,14 @@ sudo apt-get install -y automake
 sudo apt-get install -y autoconf
 sudo apt-get install -y libtool
 sudo apt-get install -y libxaw7-dev
-sudo ldconfig
 
 git clone https://github.com/Qucs/ADMS.git
 cd ADMS/
 sh bootstrap.sh
 ./configure 
 sudo make install
+
+sudo ldconfig
 
 git clone https://git.code.sf.net/p/ngspice/ngspice ngspice
 cd ngspice/
