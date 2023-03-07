@@ -77,3 +77,11 @@ If you already have the repo locally, then there is no need to re-clone it. You 
   # Backend design
   
   https://github.com/visionvlsi/be_design_using_openlane
+
+# Openlane variables 
+
+https://github.com/efabless/OpenLane/blob/master/configuration/README.md
+
+# Openlane commands 
+
+https://github.com/efabless/OpenLane/blob/master/docs/source/openlane_commands.md
