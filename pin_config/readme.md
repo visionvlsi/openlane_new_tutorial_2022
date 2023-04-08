@@ -15,6 +15,6 @@ rst
 clk
 
 #W<br/>
-p
+p<br/>
 y
 
