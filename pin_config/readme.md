@@ -5,16 +5,16 @@
 
 #### If ports are of vector type 
 
-#N
+#N<br/>
 x.*
 
-#S
+#S<br/>
 rst
 
-#E
+#E<br/>
 clk
 
-#W
+#W<br/>
 p
 y
 
