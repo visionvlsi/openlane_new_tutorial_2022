@@ -78,10 +78,18 @@ If you already have the repo locally, then there is no need to re-clone it. You 
   
   https://github.com/visionvlsi/be_design_using_openlane
 
-# Openlane variables 
+# Flow Configuration Variables
 
-https://github.com/efabless/OpenLane/blob/master/configuration/README.md
+https://openlane.readthedocs.io/en/latest/reference/configuration.html
+
+# PDK Configuration Variables
+
+https://openlane.readthedocs.io/en/latest/reference/pdk_configuration.html
 
 # Openlane commands 
 
-https://github.com/efabless/OpenLane/blob/master/docs/source/openlane_commands.md
+https://openlane.readthedocs.io/en/latest/reference/openlane_commands.html
+
+# Interactive Mode
+
+https://openlane.readthedocs.io/en/latest/reference/interactive_mode.html
