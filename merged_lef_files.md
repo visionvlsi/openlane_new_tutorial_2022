@@ -1,5 +1,4 @@
-#### NOTE: MERGED_LEF
-Points to merged.lef, which is a merger of various LEF files, including the technology lef, cells lef, any custom lefs, and IO lefs.
+#### MERGED_LEF: Points to merged.lef, which is a merger of various LEF files, including the technology lef, cells lef, any custom lefs, and IO lefs.
 
 In OpenLANE tool, the merged.max.lef, merged.min.lef, and merged.nom.lef files are LEF (Library Exchange Format) files that contain information about the standard cells and macros used in the design.
 
