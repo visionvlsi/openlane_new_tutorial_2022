@@ -98,3 +98,7 @@ https://openlane.readthedocs.io/en/latest/reference/interactive_mode.html
 1. In case of -tag tagName giving an error, do the following
    <br> export OPENLANE_IMAGE_NAME=efabless/openlane:5ca48214640dcb9f88945a3861be47716ebe187d
    <br> make mount
+2. To open DEF file either using magic or klayout
+   from (floorplan,placement, CTS, or routing directory> magic -T sky130A.tech read_lef /tmp/merged.lef read_def filename.def &
+   from (floorplan,placement, CTS, or routing directory> magic -T sky130A.tech lef read /tmp/merged.lef def read filename.def &
+3. <b>NOTE</b> pdks can be found in /root/.volare/
