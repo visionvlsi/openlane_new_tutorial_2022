@@ -99,6 +99,11 @@ https://openlane.readthedocs.io/en/latest/reference/interactive_mode.html
    <br> export OPENLANE_IMAGE_NAME=efabless/openlane:5ca48214640dcb9f88945a3861be47716ebe187d
    <br> make mount
 2. To open DEF file either using magic or klayout
-   from (floorplan,placement, CTS, or routing directory> magic -T sky130A.tech read_lef /tmp/merged.lef read_def filename.def &
-   from (floorplan,placement, CTS, or routing directory> magic -T sky130A.tech lef read /tmp/merged.lef def read filename.def &
-3. <b>NOTE</b> pdks can be found in /root/.volare/
+   <ul> 
+     <li>from (floorplan,placement, CTS, or routing directory> magic -T sky130A.tech read_lef /tmp/merged.lef read_def filename.def &</li>
+     <li>In case of klayout -> from tools -> manage technology -> import technology -> from sky130A -> libs.tch -> klayout -> sky130A.lyt </li>
+  
+    <li> <b>The following is older command</b></li>
+  <br> from (floorplan,placement, CTS, or routing directory> magic -T sky130A.tech lef read /tmp/merged.lef def read filename.def &</ul>
+  
+4. <b>NOTE</b> pdks can be found in /root/.volare/
