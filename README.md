@@ -95,6 +95,8 @@ https://openlane.readthedocs.io/en/latest/reference/openlane_commands.html
 https://openlane.readthedocs.io/en/latest/reference/interactive_mode.html
 
 # Others
+
+OPENLANE_IMAGE_NAME=efabless/openlane:9dbd8b5ea2bd891bed4dcc97df5c7439083f0368
 1. In case of -tag tagName giving an error, do the following
    <br> export OPENLANE_IMAGE_NAME=efabless/openlane:5ca48214640dcb9f88945a3861be47716ebe187d
    <br> make mount
