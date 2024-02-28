@@ -107,3 +107,5 @@ https://openlane.readthedocs.io/en/latest/reference/interactive_mode.html
   <br> from (floorplan,placement, CTS, or routing directory> magic -T sky130A.tech lef read /tmp/merged.lef def read filename.def &</ul>
   
 4. <b>NOTE</b> pdks can be found in /root/.volare/
+5. Those with -overwrite
+   <br> export OPENLANE_IMAGE=efabless/openlane:5ca48214640dcb9f88945a3861be47716ebe187d
