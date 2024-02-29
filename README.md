@@ -111,8 +111,8 @@ OPENLANE_IMAGE_NAME=efabless/openlane:9dbd8b5ea2bd891bed4dcc97df5c7439083f0368
 4. <b>NOTE</b> pdks can be found in /root/.volare/
 5. Those with -overwrite
    <br> OpenLane > git fetch --unshallow
-   <br> then, git config --global user.name "Md Zakir Hussain"
-   <br>       git config --global user.email "<your email>"
+   <br> then, git config --global user.name "anyUserName"
+   <br>       git config --global user.email "<userEmail>"
    <br> then, git stash
    <br> then, git revert 5ca48214640dcb9f88945a3861be47716ebe187d
    <br> then, Ctrl+X
