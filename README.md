@@ -117,5 +117,5 @@ OPENLANE_IMAGE_NAME=efabless/openlane:9dbd8b5ea2bd891bed4dcc97df5c7439083f0368
    <br> then, git revert 5ca48214640dcb9f88945a3861be47716ebe187d
    <br> then, Ctrl+X
    <br> then, press y
-   <br> then, OPENLANE_IMAGE_NAME=efabless/openlane:9dbd8b5ea2bd891bed4dcc97df5c7439083f0368
+   <br> then, <b>export OPENLANE_IMAGE_NAME=efabless/openlane:9dbd8b5ea2bd891bed4dcc97df5c7439083f0368</b>
    <br> make mount
